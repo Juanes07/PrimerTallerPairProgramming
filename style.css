@@ -5,7 +5,16 @@
 }
 
 .menu {
-    height: 500px;
-    background-color: aqua;
-    width: 40px;
+    margin-top: 5%;
+    height: 400px;
+    width: 100px;
+    border: 1px solid aqua;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu li{
+    margin-left: 15px;
 }
